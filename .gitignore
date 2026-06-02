@@ -1,0 +1,42 @@
+# Dependencies (This will fix the 10K file issue!)
+node_modules/
+/.pnp
+.pnp.js
+bun.lockb
+
+# Testing
+/coverage
+/.nyc_output
+
+# Production / Builds
+/dist
+/build
+/.next/
+/out/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local environment files (Passwords/API keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
